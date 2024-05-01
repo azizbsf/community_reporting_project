@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup - WarningNow</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1>WarningNow</h1>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="home.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="container">
+        <h2>Login</h2>
+        <div class="forms">
+            <!-- Login Form -->
+            <div class="form">
+                <h3>Login</h3>
+                <form action="includes/login_process.php" method="post">
+                    <label for="loginUsername">Username:</label><br>
+                    <input type="text" id="loginUsername" name="loginUsername" required><br>
+                    <label for="loginPassword">Password:</label><br>
+                    <input type="password" id="loginPassword" name="loginPassword" required><br><br>
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 WarningNow. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
